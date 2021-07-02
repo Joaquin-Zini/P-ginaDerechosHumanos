@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!--<link rel="stylesheet" href="css/min.css">-->
+</head>
+
+
+<body class="preguntas">
+
+    <header class="navbar">
+        <div class="menu">
+            <img src="img/vih.png" alt="">
+            <nav>
+              <ul>
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="Derechos.html">Derechos</a></li>
+                <li><a href="Leyes.html">Leyes</a></li>
+                <li><a href="cuestionarios.html">Cuestionarios</a></li>
+          </ul> 
+        </nav>
+    </div>
+    </header>
+
+
+
+    <div id="container">
+        <header class="Titulos">
+            <h1>Cuestionario</h1>
+            <p class="subtitulo">Responde verdadero o falso, según corresponda.</p>
+        </header>
+        
+        <span class="scrolltop"></span>
+        <section>
+           
+            <form name="VerFal" onsubmit="return validacionVF()">
+    
+                <h3>1. Si una persona tiene el VIH, siempre desarrollará sida.</h3>
+
+                <input type="radio" name="vf1" value="v">Verdadero</input>
+                <input type="radio" name="vf1" value="f">Falso</input>
+                </br><br>
+
+                <h3>2. Una persona puede contraer la misma infección de transmisión sexual (ITS) más de una vez.</h3>
+
+                <input type="radio" name="vf2" value="v">Verdadero</input>
+                <input type="radio" name="vf2" value="f">Falso</input>
+                </br><br>
+
+                <h3>3. El VIH puede curarse si se trata en una etapa temprana.</h3>
+
+                <input type="radio" name="vf3" value="v">Verdadero</input>
+                <input type="radio" name="vf3" value="f">Falso</input>
+                </br><br>
+
+                <h3>4. Muchas personas con infecciones de transmisión sexual, incluida el VIH, no muestran síntomas.</h3>
+
+                <input type="radio" name="vf4" value="v">Verdadero</input>
+                <input type="radio" name="vf4" value="f">Falso</input>
+                </br><br>
+
+                <h3>5. Estar infectado por una ITS puede aumentar el riesgo de contraer VIH si se mantienen relaciones sexuales sin protección.</h3>
+
+                <input type="radio" name="vf5" value="v">Verdadero</input>
+                <input type="radio" name="vf5" value="f">Falso</input>
+                </br><br>
+                
+                <h3>6. La circuncisión evita que los hombres contraigan la infección por VIH.</h3>
+
+                <input type="radio" name="vf6" value="v">Verdadero</input>
+                <input type="radio" name="vf6" value="f">Falso</input>
+                </br><br>
+                
+                <h3>7. Una persona puede mirar a alguien y saber si está infectado por VIH o si tiene sida.</h3>
+
+                <input type="radio" name="vf7" value="v">Verdadero</input>
+                <input type="radio" name="vf7" value="f">Falso</input>
+                </br><br>
+
+                <h3>8. Existe una vacuna eficaz que protege de la infección por VIH.</h3>
+
+                <input type="radio" name="vf8" value="v">Verdadero</input>
+                <input type="radio" name="vf8" value="f">Falso</input>
+                </br><br>
+
+                <h3>9. Una persona puede estar infectada por el VIH desde hace 10 o más años y no desarrollar el sida.</h3>
+
+                <input type="radio" name="vf9" value="v">Verdadero</input>
+                <input type="radio" name="vf9" value="f">Falso</input>
+                </br><br>
+
+                <h3>10. La realización de perforaciones en las orejas (piercing) y tatuajes con material sin esterilizar es una posible vía de transmisión del VIH.</h3>
+
+                <input type="radio" name="vf10" value="v">Verdadero</input>
+                <input type="radio" name="vf10" value="f">Falso</input>
+                </br><br>
+
+                <h3>11. Una persona puede contraer VIH por la picadura de un mosquito.</h3>
+
+                <input type="radio" name="vf11" value="v">Verdadero</input>
+                <input type="radio" name="vf11" value="f">Falso</input>
+                </br><br>
+
+                <h3>12. Una persona puede evitar la infección por el VIH mediante una alimentación saludable y la práctica de ejercicio de forma regular.</h3>
+
+                <input type="radio" name="vf12" value="v">Verdadero</input>
+                <input type="radio" name="vf12" value="f">Falso</input>
+                </br><br>
+
+                <h3>13. Una persona VIH indetectable con adherencia al tratamiento y sin otras ITS, no transmite
+                    el virus incluso si no usara preservativo.</h3>
+
+                <input type="radio" name="vf13" value="v">Verdadero</input>
+                <input type="radio" name="vf13" value="f">Falso</input>
+                </br><br>
+
+                <h3>14. El PreP protege frente al VIH y otras ITS.</h3>
+
+                <input type="radio" name="vf14" value="v">Verdadero</input>
+                <input type="radio" name="vf14" value="f">Falso</input>
+                </br><br>
+
+                <h3>15. Las mujeres con VIH, siempre transmitirán VIH el virus a sus bebes si quedan embarazadas</h3>
+
+                <input type="radio" name="vf15" value="v">Verdadero</input>
+                <input type="radio" name="vf15" value="f">Falso</input>
+                </br><br>
+            </br></bn>
+    
+                <input type="submit" value="Enviar respestas" >
+               
+    
+            </form>
+            <div id="resultado"></div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <h3>Créditos</h3>
+            
+            <ul class="redes">
+              <li><a href="https://www.facebook.com/tecnica2mardel"><i class="fab fa-facebook"></i> Página de facebook</a></li>
+              <li><a href="https://tecnica2mardel.wordpress.com/?fbclid=IwAR2WKhVOiD7tdCtgzVQxuake_N63KMTGAhSYsm0MbRyUtslECnbJwCP0LSI"><i class="fas fa-users"></i> Página oficial</a></li>
+      
+          </ul>
+        </div>
+      
+        <div class="img-footer"> 
+      
+          <img alt="" class="imagenfooter" src="img/footer/universidaddecuyo (1).png">
+          <img alt="" class="imagenfooter2" src="img/footer/CamScanner 05-20-2021 16.53 - copia (1).png">
+          <img alt="" class="imagenfooter" src="img/footer/sidamendoza.png">
+          <img alt="" class="imagenfooter" src="img/footer/onusida.png">
+          <img alt="" class="imagenfooter5" src="img/footer/1473px-UNFPA_logo.svg.png">
+        </div>
+      
+        <div class="footer-bottom">
+            <p>Copyright &copy;2021 Pablo Abdala. Diseñado por: <span>Joaquín Zini EEST N°2</span></p>
+        </div>
+      
+      
+      
+      </footer>
+      
+      
+      
+      
+      
+      <script src="js/validacion.js"></script>
+      <script src="https://kit.fontawesome.com/14a4548425.js" crossorigin="anonymous"></script>
+    
+ 
+    <!--<script src="bootstrap/bootstrap.min.js"></script>
+    <script src="bootstrap/jquery-3.2.1.slim.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>-->
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    -->
+</html>

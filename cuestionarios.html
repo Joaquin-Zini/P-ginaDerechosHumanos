@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Encuesta</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+<link rel="stylesheet" href="css/footer.css">
+
+<!--<link rel="stylesheet" href="css/min.css">-->
+</head>
+
+
+<body class="preguntas">
+
+    <header class="navbar">
+        <div class="menu">
+            <img src="img/vih.png" alt="">
+            <nav>
+              <ul>
+                <li><a href="index.html">Inicio</a></li> 
+                <li><a href="Derechos.html">Derechos</a></li>
+                <li><a href="Leyes.html">Leyes</a></li>
+                <li><a href="cuestionarios.html">Cuestionarios</a></li>
+          </ul> 
+        </nav>
+    </div>
+    </header>
+
+<div id="container">
+    <header class="Titulos">
+        <h1>Cuestionario</h1>
+        <p class="subtitulo">Responde las preguntas</p>
+    </header>
+
+    <section>
+        <div id="resultado"></div>
+       
+        <form name="cuestionario" onsubmit="return validacion()">
+
+            <br>
+            <h3>Aproximadamente ¿Cuántas personas viven con el VIH en el mundo?</h3>
+            <br>
+            <input type="radio" name="p1" value="a">A. 2 000 000</br>
+            <input type="radio" name="p1" value="b">B. 12 000 000</br>
+            <input type="radio" name="p1" value="c">C. 37,000,000</br>
+
+            <br>
+            <h3>¿Cuántas personas contraen el VIH cada día en el mundo?</h3>
+            <br>
+
+            <input type="radio" name="p2" value="a">A. Menos de 500</br>
+            <input type="radio" name="p2" value="b">B.1000</br>
+            <input type="radio" name="p2" value="c">C.3000</br>
+            <input type="radio" name="p2" value="d">D. Cerca de 5000</br>
+
+            <br>
+            <h3>¿Cuál es la principal vía de transmisión del VIH en el mundo??</h3>
+            <br>
+
+            <input type="radio" name="p3" value="a">A. Sexo heterosexual sin protección</br>
+            <input type="radio" name="p3" value="b">B. Sexo entre hombres</br>
+            <input type="radio" name="p3" value="c">C. Drogas inyectables</br>
+            <input type="radio" name="p3" value="d">D. Transmisión materno-infantil</br>
+
+            <br>
+            <h3>¿A qué corresponde la sigla VIH?</h3>
+            <br>
+
+            <input type="radio" name="p4" value="a">A. Virus de insuficiencia de hierro</br>
+            <input type="radio" name="p4" value="b">B. Virus de la inmunodeficiencia humana</br>
+            <input type="radio" name="p4" value="c">C. Virus de la inmovilización humana</br>
+
+            <br>
+            <h3>¿A qué corresponde la sigla sida?</h3>
+            <br>
+
+            <input type="radio" name="p5" value="a">A. Síndrome de inmunodeficiencia activa</br>
+            <input type="radio" name="p5" value="b">B. Síndrome de Inmunodeficiencia Adquirida</br>
+            <input type="radio" name="p5" value="c">C. Síndrome de inmunoderivación adquirida</br>
+
+            </br>
+
+            <input type="submit" value="Enviar respuestas">
+            </br>
+            </br>
+            <button onclick="location.href='vf.html'">Siguiente</button>
+
+        </form>
+        
+    </section>
+</div>
+
+
+
+
+<footer>
+    <div class="footer-content">
+        <h3>Créditos</h3>
+        
+        <ul class="redes">
+          <li><a href="https://www.facebook.com/tecnica2mardel"><i class="fab fa-facebook"></i> Página de facebook</a></li>
+          <li><a href="https://tecnica2mardel.wordpress.com/?fbclid=IwAR2WKhVOiD7tdCtgzVQxuake_N63KMTGAhSYsm0MbRyUtslECnbJwCP0LSI"><i class="fas fa-users"></i> Página oficial</a></li>
+  
+      </ul>
+    </div>
+  
+    <div class="img-footer"> 
+  
+      <img alt="" class="imagenfooter" src="img/footer/universidaddecuyo (1).png">
+      <img alt="" class="imagenfooter2" src="img/footer/CamScanner 05-20-2021 16.53 - copia (1).png">
+      <img alt="" class="imagenfooter" src="img/footer/sidamendoza.png">
+      <img alt="" class="imagenfooter" src="img/footer/onusida.png">
+      <img alt="" class="imagenfooter5" src="img/footer/1473px-UNFPA_logo.svg.png">
+    </div>
+  
+    <div class="footer-bottom">
+        <p>Copyright &copy;2021 Pablo Abdala. Diseñado por: <span>Joaquín Zini EEST N°2</span></p>
+    </div>
+  
+  
+  
+  </footer>
+  
+  
+  
+  
+  
+  <script src="js/validacion.js"></script>
+  <script src="https://kit.fontawesome.com/14a4548425.js" crossorigin="anonymous"></script>
+
+
+
+
+
+<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.js"></script>-->
+
+
+
+
+<!--<script type="text-javascript">
+
+    $(document).ready(function()
+{
+    $('.scrolltop').click(function()
+    {
+        $('body, html'). animate({
+            scrollTop: '0px'
+        });
+    })
+})
+
+</script>-->
+
+
+
+<!--<script src="js/bootbox.all.js"></script>
+<script src="js/bootbox.all.min.js"></script>
+<script src="js/bootbox.js"></script>
+<script src="js/bootbox.locales.js"></script>
+<script src="js/bootbox.locales.min.js"></script>
+<script src="js/bootbox.min.js"></script>
+-->
+</body>
+
+</html>
